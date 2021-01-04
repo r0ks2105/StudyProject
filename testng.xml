@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="EI console login">
+        <classes>
+            <class name="EEIConsoleLogin"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Test for Blocked Hashes">
+    <parameter name="SHA1" value="5F80C997F455B45FC4D3755EB367E49C956B9855"></parameter>
+    <classes>
+        <class name="BlockHash"></class>
+    </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Add comment to computer">
+        <classes>
+            <class name="AddComment"></class>
+        </classes>
+    </test>
+
+</suite>
